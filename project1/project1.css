@@ -1,0 +1,80 @@
+
+body {
+    height: 100vh;
+    background-color: papayawhip; 
+    margin: 0 auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+.container{
+background-color:azure;
+height: 100vh;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.box{
+    border: 1px solid black;
+    width: 32.5%;
+    background-color: azure;
+    text-align: center;
+    margin: 10%;
+}
+.colour1{
+padding: 5%;
+background-color:darkgoldenrod;
+text-align: center;
+}
+.colour2{
+    padding: 5%;
+    background-color:crimson;
+    text-align: center;
+}
+.colour3{
+    padding: 5%;
+    background-color:bisque;
+    text-align: center;
+}
+.colour4{
+    padding: 5%;
+    background-color:khaki;
+    text-align: center;
+    
+}
+.heading{
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration:none;
+    color:azure;
+    transform: scale(2);
+    transition: all 700ms ease-out;
+    text-shadow: 00px 10px 10px black;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .home{
+   padding: 1%;
+   font-size: x-large;
+   border-radius: 50%;
+
+  }
+  .home:hover{
+    background-color: darkcyan;
+    
+  }
