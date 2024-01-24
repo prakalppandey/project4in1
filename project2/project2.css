@@ -1,0 +1,163 @@
+html,body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+.container {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box1 {
+    background-color: azure;
+
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.box1-1 {
+    background-color: rgb(136, 156, 137);
+    width: 70%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Gender {
+    
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+}
+
+.formitem {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    align-items:center
+
+
+}
+
+.box1-2 {
+    background-color: cadetblue;
+    width: 30%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.calculateBMI {
+    padding: 3%;
+    margin: 2%;
+    width: 20%;
+    margin: auto;
+}
+
+.buttonCss {
+    font-size: xx-large;
+    outline: none;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #000a47;
+    line-height: 1.15;
+    margin: 0.2%;
+
+}
+
+.buttonCss:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+.submitbutton{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #000021;
+    background: #1de9b6;
+    line-height: 1.15;
+    font-size: 16px;
+    
+
+}
+.submitbutton:hover {
+        transition: all .1s ease;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+    }
+.Weight-val{align-self: flex-end;}
+.Height-val{align-self: flex-end;}
+
+
+
+input[type="range"]{
+    width: 60%;
+    height: 5px;
+    -webkit-appearance: none;
+   appearance: none;
+   background-color:white;
+   border-radius: 10px;
+   outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color:aquamarine;
+    border: #000021 solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span[type='text']{
+    font-size: 70px;
+   height: 20%;
+   margin-top: 5%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+   padding: 5%;
+   
+}
+.box1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#para{
+    padding: 1%;
+    background-color: #fff;
+    }
+    .info{
+        font-size: large;
+        font-style:italic;
+    }

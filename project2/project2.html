@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project2.css">
+    <title>BMI calculator</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box1">
+            <h1>BMI CALCULATOR</h1>
+            <div class="box1-1">
+
+                <div class="Gender">
+                    <button class="male buttonCss" onclick="change2()">Male</button>
+                    <button class="Female buttonCss" onclick="change1()">Female</button>
+                    <button class="Other buttonCss" onclick="change3()">Other</button>
+                </div>
+
+                <div class="rangeforHW">
+                    <form class="formitem">
+                        <span class="Height">Height</span>
+                        <input type="range" min="20" max="300" value="Height" id="Heightnumber" oninput="shownumber()">
+                        <span id="Height-val" class="Height-val">20 Cm</span>
+                        <span class="Weight">Weight</span>
+                        <input type="range" min="20" max="300" value="Weight"  id="Weightnumber" oninput="shownumber()">
+                        <span class="Weight-val" id="Weight-val">20 Kg</span>
+                        
+                        <button class="calculateBMI submitbutton" type="submit">Calculate BMI</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+            <div class="box1-2">
+                <span type="text" id="result" value="0000">BMI value</span>
+                <p id="para"><b>Females</b> tend to have a slightly higher BMI than males. This is partly due to differences in body composition, as females generally have a higher percentage of body fat compared to males.</p>
+                <p class="info"> Underweight: BMI less than 18.5 <br>
+                    Normal weight: BMI 18.5 to 24.9 <br>
+                    Overweight: BMI 25 to 29.9 <br>
+                    Obese: BMI 30 or greater</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="project2.js"></script>
+</body>
+
+</html>
