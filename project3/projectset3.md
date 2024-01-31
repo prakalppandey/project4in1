@@ -1,6 +1,6 @@
 # Project 1st of 4
 ## project Link
-[click here](https://stackblitz.com/~/github.com/prakalppandey/project4in1)
+[click here](https://prakalppandey.github.io/project4in1/project3/project3.html)
 # Solution code 
 
 ## Javascript
